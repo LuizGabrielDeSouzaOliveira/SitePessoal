@@ -1,0 +1,135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header
+{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.822);
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 20px 0;
+}
+body
+{
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 0;
+}
+.logo-texto
+{
+ margin: auto;
+ color: white;
+}
+.container
+{
+  max-width: auto;
+	margin:auto;
+  color: white;
+}
+h2
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+.apresentação
+{
+ color: white;
+ text-align: center;
+ margin-top: 2%;
+ margin-left: 5%;
+ margin-right: 5%;
+ background-color: rgba(0, 0, 0, 0.5); 
+}
+.recentes
+{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.site
+{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-top: 3%;
+  margin-left: 5%;
+}
+.esp
+{
+ color: white;
+ text-align: center;
+ margin-top: 2%;
+ margin-left: 5%;
+ margin-right: 55%;
+ background-color: rgba(0, 0, 0, 0.5); 
+}
+.lab
+{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-top: -13%;
+  margin-left: 91%;
+}
+.lab2
+{
+ color: white;
+ text-align: center;
+ margin-top: 3%;
+ margin-left: 55%;
+ margin-right: 5%;
+ background-color: rgba(0, 0, 0, 0.5); 
+}
+button {
+  color: white;
+  background: rgb(0, 102, 255);
+  transition: background 1s;
+   margin-left: 21%;
+    margin-top: 1%;
+     border-radius: 5%;
+     cursor: pointer;
+     width: 9%;
+     border-radius:10px;
+     border-color: black;
+}
+button:hover,
+button:focus {
+  background: rgb(0, 0, 0);
+}
+.visitlab
+{
+   margin-left: 72%;
+   margin-top: 2.7%;
+}
+ nav li
+{
+ display:inline-block;
+ margin: 0 10px;
+}
+nav li a
+{
+ font-size: 24px;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ padding: 10px 15px;
+ border-radius: 12px;
+}
+nav li a:hover
+{
+ background-color: rgba(0, 17, 255, 0.315);
+}
+main
+{
+    margin: 0px 10%;
+}
+nav
+{
+	text-align: center;
+}
